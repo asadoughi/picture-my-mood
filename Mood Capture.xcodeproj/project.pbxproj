@@ -39,6 +39,7 @@
 		29AC625E182FCB1E00169179 /* image4-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 29AC6254182FCB1E00169179 /* image4-on.png */; };
 		29AC625F182FCB1E00169179 /* image5-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 29AC6255182FCB1E00169179 /* image5-off.png */; };
 		29AC6260182FCB1E00169179 /* image5-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 29AC6256182FCB1E00169179 /* image5-on.png */; };
+		29AC6262182FD37100169179 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29AC6261182FD37100169179 /* Default@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,15 +53,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		292CB3E4182F19BD002CB3EB /* ScaryBugs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScaryBugs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		292CB3E4182F19BD002CB3EB /* Picture My Mood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Picture My Mood.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		292CB3E7182F19BD002CB3EB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		292CB3E9182F19BD002CB3EB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		292CB3EB182F19BD002CB3EB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		292CB3ED182F19BD002CB3EB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		292CB3F1182F19BD002CB3EB /* ScaryBugs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScaryBugs-Info.plist"; sourceTree = "<group>"; };
+		292CB3F1182F19BD002CB3EB /* Picture My Mood-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Picture My Mood-Info.plist"; sourceTree = "<group>"; };
 		292CB3F3182F19BD002CB3EB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		292CB3F5182F19BD002CB3EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		292CB3F7182F19BD002CB3EB /* ScaryBugs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScaryBugs-Prefix.pch"; sourceTree = "<group>"; };
+		292CB3F7182F19BD002CB3EB /* Picture My Mood-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Picture My Mood-Prefix.pch"; sourceTree = "<group>"; };
 		292CB3F8182F19BD002CB3EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		292CB3F9182F19BD002CB3EB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		292CB3FC182F19BD002CB3EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -70,9 +71,9 @@
 		292CB404182F19BD002CB3EB /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		292CB405182F19BD002CB3EB /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		292CB407182F19BD002CB3EB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		292CB40D182F19BD002CB3EB /* ScaryBugsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScaryBugsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		292CB40D182F19BD002CB3EB /* Picture My MoodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Picture My MoodTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		292CB40E182F19BD002CB3EB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		292CB417182F19BE002CB3EB /* ScaryBugsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScaryBugsTests-Info.plist"; sourceTree = "<group>"; };
+		292CB417182F19BE002CB3EB /* Picture My MoodTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Picture My MoodTests-Info.plist"; sourceTree = "<group>"; };
 		292CB419182F19BE002CB3EB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		292CB41B182F19BE002CB3EB /* ScaryBugsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScaryBugsTests.m; sourceTree = "<group>"; };
 		292CB427182F398D002CB3EB /* ScaryBugData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaryBugData.h; sourceTree = "<group>"; };
@@ -93,6 +94,7 @@
 		29AC6254182FCB1E00169179 /* image4-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image4-on.png"; sourceTree = "<group>"; };
 		29AC6255182FCB1E00169179 /* image5-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image5-off.png"; sourceTree = "<group>"; };
 		29AC6256182FCB1E00169179 /* image5-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image5-on.png"; sourceTree = "<group>"; };
+		29AC6261182FD37100169179 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 		292CB3DB182F19BD002CB3EB = {
 			isa = PBXGroup;
 			children = (
+				29AC6261182FD37100169179 /* Default@2x.png */,
 				292CB3EF182F19BD002CB3EB /* ScaryBugs */,
 				292CB415182F19BE002CB3EB /* ScaryBugsTests */,
 				292CB3E6182F19BD002CB3EB /* Frameworks */,
@@ -134,8 +137,8 @@
 		292CB3E5182F19BD002CB3EB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				292CB3E4182F19BD002CB3EB /* ScaryBugs.app */,
-				292CB40D182F19BD002CB3EB /* ScaryBugsTests.xctest */,
+				292CB3E4182F19BD002CB3EB /* Picture My Mood.app */,
+				292CB40D182F19BD002CB3EB /* Picture My MoodTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -168,10 +171,10 @@
 		292CB3F0182F19BD002CB3EB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				292CB3F1182F19BD002CB3EB /* ScaryBugs-Info.plist */,
+				292CB3F1182F19BD002CB3EB /* Picture My Mood-Info.plist */,
 				292CB3F2182F19BD002CB3EB /* InfoPlist.strings */,
 				292CB3F5182F19BD002CB3EB /* main.m */,
-				292CB3F7182F19BD002CB3EB /* ScaryBugs-Prefix.pch */,
+				292CB3F7182F19BD002CB3EB /* Picture My Mood-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -188,7 +191,7 @@
 		292CB416182F19BE002CB3EB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				292CB417182F19BE002CB3EB /* ScaryBugsTests-Info.plist */,
+				292CB417182F19BE002CB3EB /* Picture My MoodTests-Info.plist */,
 				292CB418182F19BE002CB3EB /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -259,9 +262,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		292CB3E3182F19BD002CB3EB /* ScaryBugs */ = {
+		292CB3E3182F19BD002CB3EB /* Picture My Mood */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 292CB41F182F19BE002CB3EB /* Build configuration list for PBXNativeTarget "ScaryBugs" */;
+			buildConfigurationList = 292CB41F182F19BE002CB3EB /* Build configuration list for PBXNativeTarget "Picture My Mood" */;
 			buildPhases = (
 				292CB3E0182F19BD002CB3EB /* Sources */,
 				292CB3E1182F19BD002CB3EB /* Frameworks */,
@@ -271,14 +274,14 @@
 			);
 			dependencies = (
 			);
-			name = ScaryBugs;
+			name = "Picture My Mood";
 			productName = ScaryBugs;
-			productReference = 292CB3E4182F19BD002CB3EB /* ScaryBugs.app */;
+			productReference = 292CB3E4182F19BD002CB3EB /* Picture My Mood.app */;
 			productType = "com.apple.product-type.application";
 		};
-		292CB40C182F19BD002CB3EB /* ScaryBugsTests */ = {
+		292CB40C182F19BD002CB3EB /* Picture My MoodTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 292CB422182F19BE002CB3EB /* Build configuration list for PBXNativeTarget "ScaryBugsTests" */;
+			buildConfigurationList = 292CB422182F19BE002CB3EB /* Build configuration list for PBXNativeTarget "Picture My MoodTests" */;
 			buildPhases = (
 				292CB409182F19BD002CB3EB /* Sources */,
 				292CB40A182F19BD002CB3EB /* Frameworks */,
@@ -289,9 +292,9 @@
 			dependencies = (
 				292CB414182F19BE002CB3EB /* PBXTargetDependency */,
 			);
-			name = ScaryBugsTests;
+			name = "Picture My MoodTests";
 			productName = ScaryBugsTests;
-			productReference = 292CB40D182F19BD002CB3EB /* ScaryBugsTests.xctest */;
+			productReference = 292CB40D182F19BD002CB3EB /* Picture My MoodTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -311,7 +314,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 292CB3DF182F19BD002CB3EB /* Build configuration list for PBXProject "ScaryBugs" */;
+			buildConfigurationList = 292CB3DF182F19BD002CB3EB /* Build configuration list for PBXProject "Mood Capture" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -324,8 +327,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				292CB3E3182F19BD002CB3EB /* ScaryBugs */,
-				292CB40C182F19BD002CB3EB /* ScaryBugsTests */,
+				292CB3E3182F19BD002CB3EB /* Picture My Mood */,
+				292CB40C182F19BD002CB3EB /* Picture My MoodTests */,
 			);
 		};
 /* End PBXProject section */
@@ -347,6 +350,7 @@
 				292CB3F4182F19BD002CB3EB /* InfoPlist.strings in Resources */,
 				29AC6258182FCB1E00169179 /* image1-on.png in Resources */,
 				292CB3FD182F19BD002CB3EB /* Main.storyboard in Resources */,
+				29AC6262182FD37100169179 /* Default@2x.png in Resources */,
 				29AC625B182FCB1E00169179 /* image3-off.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -391,7 +395,7 @@
 /* Begin PBXTargetDependency section */
 		292CB414182F19BE002CB3EB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 292CB3E3182F19BD002CB3EB /* ScaryBugs */;
+			target = 292CB3E3182F19BD002CB3EB /* Picture My Mood */;
 			targetProxy = 292CB413182F19BE002CB3EB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -503,9 +507,9 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ScaryBugs/ScaryBugs-Prefix.pch";
-				INFOPLIST_FILE = "ScaryBugs/ScaryBugs-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "ScaryBugs/Picture My Mood-Prefix.pch";
+				INFOPLIST_FILE = "ScaryBugs/Picture My Mood-Info.plist";
+				PRODUCT_NAME = "Picture My Mood";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -517,9 +521,9 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ScaryBugs/ScaryBugs-Prefix.pch";
-				INFOPLIST_FILE = "ScaryBugs/ScaryBugs-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "ScaryBugs/Picture My Mood-Prefix.pch";
+				INFOPLIST_FILE = "ScaryBugs/Picture My Mood-Info.plist";
+				PRODUCT_NAME = "Picture My Mood";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -540,8 +544,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "ScaryBugsTests/ScaryBugsTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "ScaryBugsTests/Picture My MoodTests-Info.plist";
+				PRODUCT_NAME = "Picture My MoodTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -559,8 +563,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ScaryBugs/ScaryBugs-Prefix.pch";
-				INFOPLIST_FILE = "ScaryBugsTests/ScaryBugsTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "ScaryBugsTests/Picture My MoodTests-Info.plist";
+				PRODUCT_NAME = "Picture My MoodTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -569,7 +573,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		292CB3DF182F19BD002CB3EB /* Build configuration list for PBXProject "ScaryBugs" */ = {
+		292CB3DF182F19BD002CB3EB /* Build configuration list for PBXProject "Mood Capture" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				292CB41D182F19BE002CB3EB /* Debug */,
@@ -578,7 +582,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		292CB41F182F19BE002CB3EB /* Build configuration list for PBXNativeTarget "ScaryBugs" */ = {
+		292CB41F182F19BE002CB3EB /* Build configuration list for PBXNativeTarget "Picture My Mood" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				292CB420182F19BE002CB3EB /* Debug */,
@@ -587,7 +591,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		292CB422182F19BE002CB3EB /* Build configuration list for PBXNativeTarget "ScaryBugsTests" */ = {
+		292CB422182F19BE002CB3EB /* Build configuration list for PBXNativeTarget "Picture My MoodTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				292CB423182F19BE002CB3EB /* Debug */,

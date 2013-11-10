@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "292CB3E3182F19BD002CB3EB"
-               BuildableName = "ScaryBugs.app"
-               BlueprintName = "ScaryBugs"
-               ReferencedContainer = "container:ScaryBugs.xcodeproj">
+               BuildableName = "Picture My Mood.app"
+               BlueprintName = "Picture My Mood"
+               ReferencedContainer = "container:Mood Capture.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "292CB40C182F19BD002CB3EB"
-               BuildableName = "ScaryBugsTests.xctest"
-               BlueprintName = "ScaryBugsTests"
-               ReferencedContainer = "container:ScaryBugs.xcodeproj">
+               BuildableName = "Picture My MoodTests.xctest"
+               BlueprintName = "Picture My MoodTests"
+               ReferencedContainer = "container:Mood Capture.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "292CB3E3182F19BD002CB3EB"
-            BuildableName = "ScaryBugs.app"
-            BlueprintName = "ScaryBugs"
-            ReferencedContainer = "container:ScaryBugs.xcodeproj">
+            BuildableName = "Picture My Mood.app"
+            BlueprintName = "Picture My Mood"
+            ReferencedContainer = "container:Mood Capture.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "292CB3E3182F19BD002CB3EB"
-            BuildableName = "ScaryBugs.app"
-            BlueprintName = "ScaryBugs"
-            ReferencedContainer = "container:ScaryBugs.xcodeproj">
+            BuildableName = "Picture My Mood.app"
+            BlueprintName = "Picture My Mood"
+            ReferencedContainer = "container:Mood Capture.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "292CB3E3182F19BD002CB3EB"
-            BuildableName = "ScaryBugs.app"
-            BlueprintName = "ScaryBugs"
-            ReferencedContainer = "container:ScaryBugs.xcodeproj">
+            BuildableName = "Picture My Mood.app"
+            BlueprintName = "Picture My Mood"
+            ReferencedContainer = "container:Mood Capture.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
