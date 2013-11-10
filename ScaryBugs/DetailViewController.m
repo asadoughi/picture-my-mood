@@ -35,9 +35,10 @@
 - (void)configureView
 {
     // Update the user interface for the detail item.
-    self.rateView.notSelectedImage = [UIImage imageNamed:@"shockedface2_empty.png"];
-    self.rateView.halfSelectedImage = [UIImage imageNamed:@"shockedface2_half.png"];
-    self.rateView.fullSelectedImage = [UIImage imageNamed:@"shockedface2_full.png"];
+    for (int i = 1; i <= 5; i++) {
+        [self.rateView.imagesOn addObject:[UIImage imageNamed:[NSString stringWithFormat:@"image%d-on.png", i]]];
+        [self.rateView.imagesOff addObject:[UIImage imageNamed:[NSString stringWithFormat:@"image%d-off.png", i]]];
+    }
     self.rateView.editable = YES;
     self.rateView.maxRating = 5;
     self.rateView.delegate = self;

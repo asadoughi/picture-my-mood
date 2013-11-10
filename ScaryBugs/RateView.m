@@ -10,9 +10,8 @@
 
 @implementation RateView
 
-@synthesize notSelectedImage = _notSelectedImage;
-@synthesize halfSelectedImage = _halfSelectedImage;
-@synthesize fullSelectedImage = _fullSelectedImage;
+@synthesize imagesOn = _imagesOn;
+@synthesize imagesOff = _imagesOff;
 @synthesize rating = _rating;
 @synthesize editable = _editable;
 @synthesize imageViews = _imageViews;
@@ -23,9 +22,8 @@
 @synthesize delegate = _delegate;
 
 - (void)baseInit {
-    _notSelectedImage = nil;
-    _halfSelectedImage = nil;
-    _fullSelectedImage = nil;
+    _imagesOn = [[NSMutableArray alloc] init];
+    _imagesOff = [[NSMutableArray alloc] init];
     _rating = 0;
     _editable = NO;    
     _imageViews = [[NSMutableArray alloc] init];
@@ -55,12 +53,10 @@
 - (void)refresh {
     for(int i = 0; i < self.imageViews.count; ++i) {
         UIImageView *imageView = [self.imageViews objectAtIndex:i];
-        if (self.rating >= i+1) {
-            imageView.image = self.fullSelectedImage;
-        } else if (self.rating > i) {
-            imageView.image = self.halfSelectedImage;
+        if (self.rating == i+1) {
+            imageView.image = self.imagesOn[i];
         } else {
-            imageView.image = self.notSelectedImage;
+            imageView.image = self.imagesOff[i];
         }
     }
 }
@@ -68,7 +64,7 @@
 - (void)layoutSubviews {
     [super layoutSubviews];
     
-    if (self.notSelectedImage == nil) return;
+    if (self.imagesOn[0] == nil) return;
     
     float desiredImageWidth = (self.frame.size.width - (self.leftMargin*2) - (self.midMargin*self.imageViews.count)) / self.imageViews.count;
     float imageWidth = MAX(self.minImageSize.width, desiredImageWidth);
@@ -107,22 +103,7 @@
     [self refresh];
 }
 
-- (void)setNotSelectedImage:(UIImage *)image {
-    _notSelectedImage = image;
-    [self refresh];
-}
-
-- (void)setHalfSelectedImage:(UIImage *)image {
-    _halfSelectedImage = image;
-    [self refresh];
-}
-
-- (void)setFullSelectedImage:(UIImage *)image {
-    _fullSelectedImage = image;
-    [self refresh];
-}
-
-- (void)setRating:(float)rating {
+- (void)setRating:(int)rating {
     _rating = rating;
     [self refresh];
 }
