@@ -27,6 +27,8 @@
 		292CB41C182F19BE002CB3EB /* ScaryBugsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 292CB41B182F19BE002CB3EB /* ScaryBugsTests.m */; };
 		292CB429182F398D002CB3EB /* ScaryBugData.m in Sources */ = {isa = PBXBuildFile; fileRef = 292CB428182F398D002CB3EB /* ScaryBugData.m */; };
 		292CB42C182F3B18002CB3EB /* ScaryBugDoc.m in Sources */ = {isa = PBXBuildFile; fileRef = 292CB42B182F3B18002CB3EB /* ScaryBugDoc.m */; };
+		297E209D1830052900FB9176 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 297E209C1830052900FB9176 /* Default@2x.png */; };
+		297E20A11830083800FB9176 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 297E20A01830083800FB9176 /* Default-568h@2x.png */; };
 		29AC6237182F579100169179 /* RateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AC6236182F579100169179 /* RateView.m */; };
 		29AC623B182F57B800169179 /* UIImageExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AC623A182F57B800169179 /* UIImageExtras.m */; };
 		29AC6257182FCB1E00169179 /* image1-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 29AC624D182FCB1E00169179 /* image1-off.png */; };
@@ -39,7 +41,6 @@
 		29AC625E182FCB1E00169179 /* image4-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 29AC6254182FCB1E00169179 /* image4-on.png */; };
 		29AC625F182FCB1E00169179 /* image5-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 29AC6255182FCB1E00169179 /* image5-off.png */; };
 		29AC6260182FCB1E00169179 /* image5-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 29AC6256182FCB1E00169179 /* image5-on.png */; };
-		29AC6262182FD37100169179 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29AC6261182FD37100169179 /* Default@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,8 @@
 		292CB428182F398D002CB3EB /* ScaryBugData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaryBugData.m; sourceTree = "<group>"; };
 		292CB42A182F3B18002CB3EB /* ScaryBugDoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaryBugDoc.h; sourceTree = "<group>"; };
 		292CB42B182F3B18002CB3EB /* ScaryBugDoc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaryBugDoc.m; sourceTree = "<group>"; };
+		297E209C1830052900FB9176 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		297E20A01830083800FB9176 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		29AC6235182F579100169179 /* RateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RateView.h; sourceTree = "<group>"; };
 		29AC6236182F579100169179 /* RateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RateView.m; sourceTree = "<group>"; };
 		29AC6239182F57B800169179 /* UIImageExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageExtras.h; sourceTree = "<group>"; };
@@ -94,7 +97,6 @@
 		29AC6254182FCB1E00169179 /* image4-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image4-on.png"; sourceTree = "<group>"; };
 		29AC6255182FCB1E00169179 /* image5-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image5-off.png"; sourceTree = "<group>"; };
 		29AC6256182FCB1E00169179 /* image5-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image5-on.png"; sourceTree = "<group>"; };
-		29AC6261182FD37100169179 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,7 +128,8 @@
 		292CB3DB182F19BD002CB3EB = {
 			isa = PBXGroup;
 			children = (
-				29AC6261182FD37100169179 /* Default@2x.png */,
+				297E20A01830083800FB9176 /* Default-568h@2x.png */,
+				297E209C1830052900FB9176 /* Default@2x.png */,
 				292CB3EF182F19BD002CB3EB /* ScaryBugs */,
 				292CB415182F19BE002CB3EB /* ScaryBugsTests */,
 				292CB3E6182F19BD002CB3EB /* Frameworks */,
@@ -348,9 +351,10 @@
 				29AC625D182FCB1E00169179 /* image4-off.png in Resources */,
 				29AC6257182FCB1E00169179 /* image1-off.png in Resources */,
 				292CB3F4182F19BD002CB3EB /* InfoPlist.strings in Resources */,
+				297E209D1830052900FB9176 /* Default@2x.png in Resources */,
 				29AC6258182FCB1E00169179 /* image1-on.png in Resources */,
+				297E20A11830083800FB9176 /* Default-568h@2x.png in Resources */,
 				292CB3FD182F19BD002CB3EB /* Main.storyboard in Resources */,
-				29AC6262182FD37100169179 /* Default@2x.png in Resources */,
 				29AC625B182FCB1E00169179 /* image3-off.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
