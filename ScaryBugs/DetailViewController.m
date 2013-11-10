@@ -43,8 +43,7 @@
     self.rateView.maxRating = 5;
     self.rateView.delegate = self;
     
-    if (self.detailItem)
-    {
+    if (self.detailItem) {
         self.titleField.text = self.detailItem.data.title;
         self.rateView.rating = self.detailItem.data.rating;
         self.imageView.image = self.detailItem.fullImage;

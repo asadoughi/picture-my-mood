@@ -20,7 +20,7 @@
 
 @implementation MasterViewController
 
-@synthesize bugs = _bugs;
+@synthesize entries = _entries;
 
 - (void)awakeFromNib
 {
@@ -51,10 +51,13 @@
 
 - (void)insertNewObject:(id)sender
 {
-    ScaryBugDoc *newDoc = [[ScaryBugDoc alloc] initWithTitle:@"New Bug" rating:0 thumbImage:nil fullImage:nil];
-    [_bugs addObject:newDoc];
+    NSString *dateString = [NSDateFormatter localizedStringFromDate:[NSDate date]
+                                                          dateStyle:NSDateFormatterShortStyle
+                                                          timeStyle:NSDateFormatterNoStyle];
+    ScaryBugDoc *newDoc = [[ScaryBugDoc alloc] initWithTitle:dateString rating:0 thumbImage:nil fullImage:nil];
+    [_entries addObject:newDoc];
     
-    NSIndexPath *indexPath = [NSIndexPath indexPathForRow:_bugs.count-1 inSection:0];
+    NSIndexPath *indexPath = [NSIndexPath indexPathForRow:_entries.count-1 inSection:0];
     NSArray *indexPaths = [NSArray arrayWithObject:indexPath];
     [self.tableView insertRowsAtIndexPaths:indexPaths withRowAnimation:YES];
     
@@ -71,13 +74,13 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return _bugs.count;
+    return _entries.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"MyBasicCell"];
-    ScaryBugDoc *bug = [self.bugs objectAtIndex:indexPath.row];
+    ScaryBugDoc *bug = [self.entries objectAtIndex:indexPath.row];
     cell.textLabel.text = bug.data.title;
     cell.imageView.image = bug.thumbImage;
     return cell;
@@ -92,7 +95,7 @@
 - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
 {
     if (editingStyle == UITableViewCellEditingStyleDelete) {
-        [_bugs removeObjectAtIndex:indexPath.row];
+        [_entries removeObjectAtIndex:indexPath.row];
         [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationFade];
     }   
 }
@@ -106,8 +109,8 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     DetailViewController *detailController = segue.destinationViewController;
-    ScaryBugDoc *bug = [self.bugs objectAtIndex:self.tableView.indexPathForSelectedRow.row];
-    detailController.detailItem = bug;
+    ScaryBugDoc *entry = [self.entries objectAtIndex:self.tableView.indexPathForSelectedRow.row];
+    detailController.detailItem = entry;
 }
 
 #pragma mark - Fetched results controller
