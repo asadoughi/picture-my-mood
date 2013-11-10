@@ -53,7 +53,7 @@
 {
     NSString *dateString = [NSDateFormatter localizedStringFromDate:[NSDate date]
                                                           dateStyle:NSDateFormatterShortStyle
-                                                          timeStyle:NSDateFormatterNoStyle];
+                                                          timeStyle:NSDateFormatterShortStyle];
     ScaryBugDoc *newDoc = [[ScaryBugDoc alloc] initWithTitle:dateString rating:0 thumbImage:nil fullImage:nil];
     [_entries addObject:newDoc];
     

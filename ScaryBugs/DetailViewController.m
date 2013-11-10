@@ -67,7 +67,10 @@
     if (self.picker == nil) {
         self.picker = [[UIImagePickerController alloc] init];
         self.picker.delegate = self;
-        self.picker.sourceType = UIImagePickerControllerSourceTypeCamera;
+        if ([UIImagePickerController isSourceTypeAvailable: UIImagePickerControllerSourceTypeCamera])
+            self.picker.sourceType = UIImagePickerControllerSourceTypeCamera;
+        else
+            self.picker.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
         self.picker.allowsEditing = NO;
     }
     [self.navigationController presentViewController:_picker animated:YES completion:nil];
