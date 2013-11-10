@@ -314,7 +314,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 292CB3DF182F19BD002CB3EB /* Build configuration list for PBXProject "Mood Capture" */;
+			buildConfigurationList = 292CB3DF182F19BD002CB3EB /* Build configuration list for PBXProject "Picture My Mood" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -573,7 +573,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		292CB3DF182F19BD002CB3EB /* Build configuration list for PBXProject "Mood Capture" */ = {
+		292CB3DF182F19BD002CB3EB /* Build configuration list for PBXProject "Picture My Mood" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				292CB41D182F19BE002CB3EB /* Debug */,
